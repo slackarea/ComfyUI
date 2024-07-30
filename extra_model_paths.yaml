@@ -1,0 +1,41 @@
+#Rename this to extra_model_paths.yaml and ComfyUI will load it
+
+#config for comfyui
+#your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
+
+#Rename this to extra_model_paths.yaml and ComfyUI will load it
+
+#config for comfyui
+#your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
+
+comfyui:
+     base_path: /comfyui/
+     checkpoints: models/checkpoints/
+     clip: models/clip/
+     clip_vision: models/clip_vision/
+     configs: models/configs/
+     controlnet: models/controlnet/
+     diffusers: models/diffusers/
+     dz_facedetailer: models/dz_facedetailer/
+     embeddings: models/embeddings/
+     gligen: models/gligen/
+     grounding-dino: models/grounding-dino/
+     hypernetworks: models/hypernetworks/
+     ipadapter: models/ipadapter/
+     loras: models/loras/
+     mmdets: models/mmdets/
+     onnx: models/onnx/
+     photomaker: models/photomaker/
+     sams: models/sams/
+     style_models: models/style_models/
+     ultralytics: models/ultralytics/
+     unet: models/unet/
+     upscale_models: models/upscale_models/
+     vae: models/vae/
+     vae_approx: models/vae_approx/
+
+#other_ui:
+#    base_path: path/to/ui
+#    checkpoints: models/checkpoints
+#    gligen: models/gligen
+#    custom_nodes: path/custom_nodes
