@@ -1,4 +1,5 @@
 FROM nvidia/cuda:12.5.1-runtime-ubuntu22.04
+LABEL org.opencontainers.image.authors="expert@slackarea.net"
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
